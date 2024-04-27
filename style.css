@@ -1,0 +1,16 @@
+#container {
+    width: 100%; /* El div ocupa todo el ancho de su contenedor */
+    height: 100vh; /* El div ocupa toda la altura de la ventana del navegador */
+    display: flex; /* Utilizamos flexbox para centrar el contenido */
+    justify-content: center; /* Centramos horizontalmente el contenido */
+    align-items: center; /* Centramos verticalmente el contenido */
+}
+
+#container button {
+    padding: 10px 20px; /* Ajustamos el relleno del botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    border: none; /* Eliminamos el borde del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    cursor: pointer; /* Cambiamos el cursor al pasar por encima del botón */
+}
