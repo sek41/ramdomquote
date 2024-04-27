@@ -1,10 +1,20 @@
 #container {
-    width: 100%; /* El div ocupa todo el ancho de su contenedor */
-    height: 100vh; /* El div ocupa toda la altura de la ventana del navegador */
-    display: flex; /* Utilizamos flexbox para centrar el contenido */
-    justify-content: center; /* Centramos horizontalmente el contenido */
-    align-items: center; /* Centramos verticalmente el contenido */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+#button {
+    margin-bottom: 20px; /* Añade espacio debajo del botón */
+}
+
+#ramdom {
+    margin-top: 20px; /* Añade espacio encima del encabezado */
+}
+
 
 #container button {
     padding: 10px 20px; /* Ajustamos el relleno del botón */
